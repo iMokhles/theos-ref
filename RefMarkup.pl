@@ -3,7 +3,7 @@
 ## RefMarkup.pl
 ## theosref weird markup parser.
 
-$text = "<meta charset=\"UTF-8\">\n<link href=\"../theosref.css\" rel=\"stylesheet\">\n\n";
+$text = "<link href=\"../theosref.css\" rel=\"stylesheet\">\n\n";
 while (<>) { $text .= $_; }
 
 # [THEOSREF] Change %INDENT% to css indent.
